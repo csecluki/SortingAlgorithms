@@ -4,8 +4,7 @@ import random
 '''
 Iterujemy po liście od indeksu 1 (drugi element), zapamiętujemy jego wartość i kolejno porównujemy z poprzednimi 
 elementami. Jeśli wartość zapamiętanego elementu jest mniejsza od kolejnego przyrównanego elementu, przyrównany element
-przesuwamy o jedno miejsce do przodu na liście. Jeśli zapamiętany element jest większy wstawiamy go w miejsce o indeksie
-i - 1. 
+przesuwamy o jedno miejsce do przodu na liście.
 '''
 
 array = [random.randrange(0, 10000) for _ in range(20)]
